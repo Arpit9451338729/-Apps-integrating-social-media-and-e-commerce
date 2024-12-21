@@ -1,0 +1,79 @@
+/* Welcome message styles */
+.welcome-message {
+    text-align: center;
+    padding: 30px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.image-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-preview img {
+    width: 150px;  
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 5px;
+}
+
+.store-form {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.store-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.store-form h3 {
+    color: #333;
+}
+
+.store-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.store-form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.store-form input,
+.store-form textarea,
+.store-form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.store-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.store-form button:hover {
+    background-color: #45a049;
+}

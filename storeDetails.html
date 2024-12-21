@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="storeDetails.css"> 
+</head>
+<body>
+    <div class="welcome-message">
+        <h1>Welcome to Seller Page</h1>
+    </div>
+    <div class="store-form">
+        <h2>Enter Your Store and Product Details</h2>
+        
+        <form id="storeForm">
+            <!-- Store Details -->
+            <h3>Store Details</h3>
+            <label for="storeName">Store Name:</label>
+            <input type="text" id="storeName" name="storeName" required>
+
+            <label for="storeDescription">Store Description:</label>
+            <textarea id="storeDescription" name="storeDescription" required></textarea>
+
+            <label for="contactEmail">Contact Email:</label>
+            <input type="email" id="contactEmail" name="contactEmail" required>
+
+            <label for="storePhone">Phone Number:</label>
+            <input type="tel" id="storePhone" name="storePhone" required>
+
+            <!-- Product Details -->
+            <h3>Product Details</h3>
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required>
+
+            <label for="productDescription">Product Description:</label>
+            <textarea id="productDescription" name="productDescription" required></textarea>
+
+            <label for="productPrice">Product Price (per unit):</label>
+            <input type="number" id="productPrice" name="productPrice" required>
+
+            <label for="productImages">Product Images:</label>
+            <input type="file" id="productImages" name="productImages" multiple>
+
+            <!-- Image Preview Section -->
+            <div id="imagePreview" class="image-preview"></div>
+            
+            <label for="stockQuantity">Stock Quantity (in units):</label>
+            <input type="number" id="stockQuantity" name="stockQuantity" required>
+
+            <label for="productCategory">Product Category:</label>
+            <select id="productCategory" name="productCategory" required>
+                <option value="home">Home</option>
+                <option value="fashion">Fashion</option>
+                <option value="electronics">Electronics</option>
+                <option value="lifestyle">Lifestyle</option>
+            </select>
+
+            <button type="submit" class="btn">Submit Store and Product Details</button>
+        </form>
+    </div>
+
+    <script src="storeDetails.js"></script>
+</body>
+</html>
